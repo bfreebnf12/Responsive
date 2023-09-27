@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Responsive</title>
+
+    <body>
+
+
+        <header class="head">
+            <div class="m">
+                <h1>M
+                </h1>
+            </div>
+            <div class="navbar-links">
+                <a href="#" class="toggle-button">
+                    &#9776;
+                    <!-- <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span> -->
+                </a>
+                <nav class="navbar">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+
+
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+
+        </header>
+
+        </div>
+        <center>
+            <h1 class="header1">About Us</h1>
+        </center>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute i
+            rure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="grid-container">
+            <div class="soluta">
+                <img src="./assets/room1.png">
+                <span class="picSoluta"><strong>Soluta esse molestie</strong> 
+            <p class="p.s">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Lorem ipsum dolor sit 
+                amet, consectetuer adipiscing elit, sed diam nonummy nibh eusmod.</p></span>
+            </div>
+            <div class="dolore">
+                <img src="./assets/room2.png">
+                <span class="picDolore"><strong>Dolore feugiat nulla</strong>
+                </span>
+                <p class="p.d">Iriure dolor in hendrerit duis autem vel eum in vulputate velit esse molestie vel illum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
+                </span>
+            </div>
+            <div class="conseq">
+                <img src="./assets/room3.png">
+                <span class="picConseq"><strong>Consequat vel illum</strong>
+                    </span>
+                <p class="p.c">Hendrerit in vulputate esse molestie consequat, vel illum dolore eu feugiat consequat. Lorem ipsum dolor sit amet, consectuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                </span>
+            </div>
+        </div>
+        <h1>
+            <center>-Our Team-</center>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectuer adipiscing elit, sed diam nonummy nbh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</center>
+        </p>
+        <div class="team">
+            <div class="team1"><img src="./assets/team1.png">
+                <br>
+                <p class="details">
+                    <p>Melissa Style</p>
+                    <p>Graphic Designer</p>
+            </div>
+            <div class="team2"><img src="./assets/team2.png">
+                <p>Frank Star</p>
+                <p>Boss</p>
+                <p>
+                    <Boss/p>
+            </div>
+            <div class="team3"><img src="./assets/team3.png">
+                <p>Jane Naismith</p>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="team4"><img src="./assets/team4.png">
+                <p>Mark Stoner</p>
+                <p>Web Developer</p>
+            </div>
+        </div>
+
+        <footer class="foot"></footer>
+        </div>
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+
+            function toggleNav({
+                target
+            }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                navButton.setAttribute('aria-expanded', !expanded);
+            }
+            navButton.addEventListener('click', toggleNav);
+
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        </script>
+
+        <footer>
+            <div class=" footer-section">
+                <a href="#" class="network-item">
+                    <div class="online-logo">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="network-item">
+                    <div class="online-logo">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>Twitter</span>
+                </a>
+                <a href="#" class="network-item">
+                    <div class="online-logo">
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                    <span>Instagram</span>
+                </a>
+                <a href="#" class="network-item">
+                    <div class="inline-logo">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <section class="foot">
+                <div class="container">
+                    <h4 class="topic">Company Address</h4>
+                    <p class="detail">Responsive Street 7</p>
+                    <p>London - United Kiingdom</p>
+                    <p>Europe</p>
+                </div>
+                <div>
+                    <h4 class="topic">Email</h4>
+                    <p>contact@yourdomain.com</p>
+                    <p>office@yourdomain.com</p>
+                </div>
+                <div>
+                    <h4 class="topic">Phone Numbers</h4>
+                    <p>0800 4521 800 50</p>
+                    <p>0450 5896 625 16</p>
+                    <p>0798 6546 465 15</p>
+                </div>
+            </section>
+
+        </footer>
+        </footer>
+    </body>
+
+
+
+
+</html>
